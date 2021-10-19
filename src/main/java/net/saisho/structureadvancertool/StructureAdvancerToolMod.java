@@ -47,7 +47,7 @@ public class StructureAdvancerToolMod {
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
     public static final String MODID = "structure_advancer_tool";
 	public static final String NAME = "S.A.T.";
-	public static final String VERSION = "Alpha 1.1";
+	public static final String VERSION = "0.1.1";
 	public StructureAdvancerToolModElements elements;
 	public StructureAdvancerToolMod() {
 		elements = new StructureAdvancerToolModElements();

@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = 'Alpha 1.1'
+version = '0.1.1'
 
 group = 'com.saisho.structure_advancer_tool'
 archivesBaseName = 'structure_advancer_tool'
