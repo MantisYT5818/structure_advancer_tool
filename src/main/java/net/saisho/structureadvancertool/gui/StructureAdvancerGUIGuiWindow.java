@@ -122,5 +122,11 @@ public class StructureAdvancerGUIGuiWindow extends ContainerScreen<StructureAdva
 				StructureAdvancerGUIGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
+		this.addButton(new Button(this.guiLeft + 48, this.guiTop + 49, 75, 20, new StringTextComponent("Apply Name"), e -> {
+			if (true) {
+				StructureAdvancerToolMod.PACKET_HANDLER.sendToServer(new StructureAdvancerGUIGui.ButtonPressedMessage(1, x, y, z));
+				StructureAdvancerGUIGui.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
 	}
 }

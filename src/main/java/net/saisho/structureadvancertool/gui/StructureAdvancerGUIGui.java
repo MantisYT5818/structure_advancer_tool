@@ -2,6 +2,7 @@
 package net.saisho.structureadvancertool.gui;
 
 import net.saisho.structureadvancertool.procedures.PlaceStructureProcedure;
+import net.saisho.structureadvancertool.procedures.ApplyNameProcedure;
 import net.saisho.structureadvancertool.StructureAdvancerToolModElements;
 
 import net.minecraftforge.items.ItemStackHandler;
@@ -178,12 +179,22 @@ public class StructureAdvancerGUIGui extends StructureAdvancerToolModElements.Mo
 		if (buttonID == 0) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("guistate", guistate);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				PlaceStructureProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("guistate", guistate);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ApplyNameProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

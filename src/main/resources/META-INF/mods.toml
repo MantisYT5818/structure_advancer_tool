@@ -3,12 +3,11 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="structure_advancer_tool"
-version="1.0.0"
-displayName="Structure Advancer Tool"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="brick, MCreator"
+    modId="structure_advancer_tool"
+    version="${file.jarVersion}"
+    displayName="S.A.T."
+    displayURL="https://github.com/MantisYT5818/structure_advancer_tool/"
+    authors="Saisho/MantisYT123"
 
 [[dependencies.structure_advancer_tool]]
     modId="minecraft"
@@ -16,7 +15,10 @@ authors="brick, MCreator"
     versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"
-
-
-
+[[dependencies.structure_advancer_tool]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.1.0,)"
+    ordering="NONE"
+    side="BOTH"
 
