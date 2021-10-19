@@ -38,7 +38,7 @@ import net.minecraft.enchantment.Enchantment;
 import net.minecraft.block.Block;
 
 import java.util.function.Supplier;
-
+//  I made this mod for future use. It will not be a dependency on anything, it is just a simple copy-paste code for myself.
 @Mod("structure_advancer_tool")
 public class StructureAdvancerToolMod {
     public static final Logger LOGGER = LogManager.getLogger(StructureAdvancerToolMod.class);
