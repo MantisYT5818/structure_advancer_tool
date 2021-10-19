@@ -1,0 +1,47 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Structure Name Here",
+          "width": 120,
+          "height": 20,
+          "name": "AddStructure",
+          "x": 152,
+          "y": 61
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Generate",
+          "onClick": {
+            "name": "PlaceStructure"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Generate",
+          "x": 180,
+          "y": 112
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
